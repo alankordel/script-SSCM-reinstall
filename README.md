@@ -1,2 +1,36 @@
-# script-SSCM-reinstall
-Automatizar a reinstalação do cliente SCCM/MECM (ccmsetup) em estações de trabalho, incluindo limpeza de instalações anteriores, download do pacote de instalação, execução do instalador e validações pós-instalação.
+# Descrição Detalhada - SCCMReinstall.ps1
+
+O **SCCMReinstall.ps1** é um script em PowerShell desenvolvido para auxiliar administradores de sistemas na reinstalação do cliente **SCCM/MECM (System Center Configuration Manager / Microsoft Endpoint Configuration Manager)** em máquinas Windows.
+
+## Funcionalidades principais
+- Remove instalações antigas do agente SCCM (limpeza de registros e serviços).
+- Faz download do pacote de instalação a partir de um ZIP previamente definido.
+- Extrai o conteúdo e localiza o executável `ccmsetup.exe`.
+- Executa a instalação com parâmetros configuráveis (Management Point, Site Code, etc.).
+- Gera logs detalhados de todo o processo em arquivo (`SCCMClientInstall.log`).
+- Previne que o sistema entre em suspensão durante a execução.
+- Valida a instalação final verificando serviços e componentes críticos.
+
+## Benefícios
+- Padroniza a reinstalação do cliente SCCM.
+- Reduz tempo de troubleshooting em ambientes corporativos.
+- Facilita automação em massa (pode ser usado em GPO, Intune ou orquestradores).
+
+## Pré-requisitos
+- Executar como Administrador.
+- Garantir conectividade com o servidor SCCM/Management Point.
+- Ter o pacote de instalação válido do SCCM acessível no caminho configurado.
+
+## Estrutura do Repositório
+- `SCCMReinstall.ps1` → Script principal.
+- `README.md` → Guia de uso rápido.
+- `DESCRIPTION.md` → Documento detalhado (este arquivo).
+- `LICENSE` → Termos da licença MIT.
+- `.gitignore` → Exclusões para o Git.
+
+## Observações
+Este projeto é distribuído sob a **Licença MIT**, permitindo livre uso, modificação e redistribuição, desde que mantidos os créditos de autoria.
+
+---
+**Autor:** Alan Kordel  
+**Data de criação:** 2025-09-10  
