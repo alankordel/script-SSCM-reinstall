@@ -12,7 +12,6 @@ O **SCCMReinstall.ps1** é um script em PowerShell desenvolvido para auxiliar ad
 - Valida a instalação final verificando serviços e componentes críticos.
 
 ## Benefícios
-- Padroniza a reinstalação do cliente SCCM.
 - Reduz tempo de troubleshooting em ambientes corporativos.
 - Facilita automação em massa (pode ser usado em GPO, Intune ou orquestradores).
 
@@ -20,16 +19,6 @@ O **SCCMReinstall.ps1** é um script em PowerShell desenvolvido para auxiliar ad
 - Executar como Administrador.
 - Garantir conectividade com o servidor SCCM/Management Point.
 - Ter o pacote de instalação válido do SCCM acessível no caminho configurado.
-
-## Estrutura do Repositório
-- `SCCMReinstall.ps1` → Script principal.
-- `README.md` → Guia de uso rápido.
-- `DESCRIPTION.md` → Documento detalhado (este arquivo).
-- `LICENSE` → Termos da licença MIT.
-- `.gitignore` → Exclusões para o Git.
-
-## Observações
-Este projeto é distribuído sob a **Licença MIT**, permitindo livre uso, modificação e redistribuição, desde que mantidos os créditos de autoria.
 
 ---
 **Autor:** Alan Kordel  
