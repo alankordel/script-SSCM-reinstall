@@ -2,12 +2,11 @@
 # SCCMReinstall.ps1
 #-------------------------------------------------------------------------------
 # Autor: Alan Kordel
-# Data: 2025-09-10
+# Data: 2025-07-10
 # Descrição: Script para reinstalação do agente SCCM/MECM (ccmsetup) com etapas de
 #            limpeza prévia, download do pacote, instalação e validação.
-# Observações: Personalize parâmetros no topo do script (MP, SiteCode, paths) conforme
+# Observações: Personalizar parâmetros no topo do script (MP, SiteCode, paths) conforme
 #              ambiente antes de executar. Execute como Administrador.
-# Licença: MIT (SPDX: MIT)
 #-------------------------------------------------------------------------------
 
 
