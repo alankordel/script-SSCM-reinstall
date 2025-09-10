@@ -22,4 +22,4 @@ O **SCCMReinstall.ps1** é um script em PowerShell desenvolvido para auxiliar ad
 
 ---
 **Autor:** Alan Kordel  
-**Data de criação:** 2025-09-10  
+**Data de criação:** 2025-07-10  
